@@ -28,7 +28,7 @@ Both ways a page can open count: a tab the browser creates, and a link inside a 
 
 ## Install
 
-1. In Zen settings, open Sine and add a mod from the repository `apoapostolov/Zen-Glance-Plus`.
+1. In Zen settings, open Sine and add a mod from the repository `fiuhq/zen-glance-plus`. Sine updates a mod from the repository its `theme.json` names as its homepage, so this fork's manifest names this fork.
 2. Check that `sine.allow-unsafe-js` is `true` in `about:config`. A repository install is not a store install, so Sine refuses to run its script without that preference, and the mod then shows as enabled while doing nothing.
 3. Restart Zen. Chrome scripts load at startup.
 

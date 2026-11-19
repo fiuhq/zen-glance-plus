@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 — 2026-11-19
+
+- This copy is the fiuhq fork of [apoapostolov/Zen-Glance-Plus](https://github.com/apoapostolov/Zen-Glance-Plus). Its `theme.json` names the fork as the mod's homepage, readme and image, because Sine checks that homepage for updates and downloads them from it: a fork whose manifest still named the original would be updated from the original.
+- A test now holds the behaviour the fork is kept for: a link to a page of the same site, opened from an essential, becomes a Glance with the shipped settings, where Zen's own rule opens a tab.
+- The tests run on every push and pull request.
+
 ## 1.1.0 — 2026-10-28
 
 The reason this is a minor version rather than another patch: Glance Plus now adds controls to Zen's own Glance, not only rules about when a page opens in one.

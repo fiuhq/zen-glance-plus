@@ -818,6 +818,30 @@ test("a link opened from a page is answered with the address Zen kept", () => {
   assert.equal(world.manager.shouldOpenTabInGlance(opened, listing), false);
 });
 
+test("a same-site link opened from an essential glances by default", () => {
+  const world = createWorld();
+  // An app that links to its own pages: Zen's rule refuses a same-domain Glance.
+  const essential = makeTab("essential", {
+    attrs: { "zen-essential": "" },
+    pinned: true,
+    url: "https://app.example.net/h/one/workspace/a",
+  });
+  world.select(essential);
+  const opened = makeTab("opened", { url: "about:blank" });
+  opened.owner = essential;
+
+  assert.equal(
+    world.manager.shouldOpenTabInGlance(opened, { spec: "https://app.example.net/h/one/workspace/b" }),
+    true,
+    "a page of the same site opened from its essential should glance"
+  );
+  assert.equal(
+    world.manager.shouldOpenTabInGlance(opened, { spec: "https://elsewhere.example.org/page" }),
+    true,
+    "and so should a page of another site"
+  );
+});
+
 test("a Glance never opens inside a Glance", () => {
   const world = createWorld();
   const glanceTab = makeTab("glance", { url: "https://example.org/inside" });
