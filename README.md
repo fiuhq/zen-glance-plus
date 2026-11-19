@@ -10,8 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/apoapostolov/Zen-Glance-Plus/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/apoapostolov/Zen-Glance-Plus?style=for-the-badge&color=5B8CFF"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/apoapostolov/Zen-Glance-Plus?style=for-the-badge&color=5B8CFF"></a>
+  A fork of <a href="https://github.com/apoapostolov/Zen-Glance-Plus">apoapostolov/Zen-Glance-Plus</a> by Apostol Apostolov, kept by fiuhq.
+</p>
+
+<p align="center">
+  <a href="https://github.com/fiuhq/zen-glance-plus/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/fiuhq/zen-glance-plus?style=for-the-badge&color=5B8CFF"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/fiuhq/zen-glance-plus?style=for-the-badge&color=5B8CFF"></a>
   <a href="https://github.com/zen-browser/desktop"><img alt="Zen 1.24t" src="https://img.shields.io/badge/zen-1.24t-5B8CFF?style=for-the-badge"></a>
   <img alt="Sine mod" src="https://img.shields.io/badge/sine-mod-5B8CFF?style=for-the-badge">
 </p>
@@ -28,7 +32,7 @@ Both ways a page can open count: a tab the browser creates, and a link inside a 
 
 ## Install
 
-1. In Zen settings, open Sine and add a mod from the repository `apoapostolov/Zen-Glance-Plus`.
+1. In Zen settings, open Sine and add a mod from the repository `fiuhq/zen-glance-plus`. Sine updates a mod from the repository its `theme.json` names as its homepage, so this fork's manifest names this fork.
 2. Check that `sine.allow-unsafe-js` is `true` in `about:config`. A repository install is not a store install, so Sine refuses to run its script without that preference, and the mod then shows as enabled while doing nothing.
 3. Restart Zen. Chrome scripts load at startup.
 
