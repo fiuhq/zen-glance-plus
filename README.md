@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/apoapostolov/Zen-Glance-Plus/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/apoapostolov/Zen-Glance-Plus?style=for-the-badge&color=5B8CFF"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/apoapostolov/Zen-Glance-Plus?style=for-the-badge&color=5B8CFF"></a>
+  <a href="https://github.com/fiuhq/zen-glance-plus/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/fiuhq/zen-glance-plus?style=for-the-badge&color=5B8CFF"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/fiuhq/zen-glance-plus?style=for-the-badge&color=5B8CFF"></a>
   <a href="https://github.com/zen-browser/desktop"><img alt="Zen 1.24t" src="https://img.shields.io/badge/zen-1.24t-5B8CFF?style=for-the-badge"></a>
   <img alt="Sine mod" src="https://img.shields.io/badge/sine-mod-5B8CFF?style=for-the-badge">
 </p>
